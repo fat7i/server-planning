@@ -1,5 +1,4 @@
 # Server Planning
----                                                         
 Write a library that calculates the number of servers (which have the same configuration) needed to host a specified
 amount of virtual machines.
 
@@ -16,12 +15,11 @@ Virtual machines are always allocated on the current or the next server (in case
 If a virtual machine is too 'big' for a server, it should be skipped.
 If the collection of virtual machines is empty, an exception should be thrown.
 
-------------------------------------------------------------------------------
 ##### Example:
 - Server type = {CPU: 2, RAM: 32, HDD: 100}
 - Virtual Machines = [{CPU: 1, RAM: 16, HDD: 10}, {CPU: 1, RAM: 16, HDD: 10}, {CPU: 2, RAM: 32, HDD: 100}]
 - Result = 2
-------------------------------------------------------------------------------
+
 ##### General Requirements:
 - Create a composer project with PHP version 7 or higher
 - Free choice of dependencies, but keep it simple
